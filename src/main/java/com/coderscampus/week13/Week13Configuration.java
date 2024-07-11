@@ -10,7 +10,7 @@ import com.coderscampus.week13.domain.User;
 @Configuration
 public class Week13Configuration {
 	@Bean
-	User user() {
+	public User user() {
 		return new User("trevor@craftycodr.com","asdfasdf", "Trevor");
 	}
 }
